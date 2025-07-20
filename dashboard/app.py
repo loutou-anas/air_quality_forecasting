@@ -13,9 +13,9 @@ st.title("🌫️ Air Quality Forecasting Dashboard")
 # Load processed data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("E:/air_quality_forecasting/data/processed_air_quality.csv", parse_dates=["datetime"])
-    df.set_index("datetime", inplace=True)
-    return df
+    csv_path = os.path.join(os.path.dirname(__file__), "..", "data", "processed_air_quality.csv")
+    csv_path = os.path.abspath(csv_path)
+    return pd.read_csv(csv_path, parse_dates=["datetime"])
 
 df = load_data()
 
