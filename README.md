@@ -77,6 +77,14 @@ air_quality_forecasting/
 
 ---
 
+# 🌫️ Air Quality Impact & Forecasting
+
+🚀 **Live Demo:** [View Streamlit Dashboard](https://airqualityforecasting-loutou-anas.streamlit.app)
+
+An end-to-end data science and analytics project that forecasts air pollutant levels...
+
+---
+
 ## 📌 Author
 
 Made by Anas Loutou.
